@@ -331,3 +331,101 @@ a {
     color: $second;
   }
 }
+
+// reviews
+.reviews {
+  margin: 130px 0;
+  &-list {
+    display: flex;
+    gap: 72px;
+  }
+  &-item:first-child {
+    width: 35%;
+  }
+  &-item:last-child {
+    width: 58%;
+    display: flex;
+    position: relative;
+  }
+  &-avatar {
+    position: absolute;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  &-avatar:first-child,
+  &-avatar:nth-child(2) {
+    width: 92px;
+    height: 92px;
+  }
+
+  &-avatar:first-child {
+    top: 0;
+    left: 144px;
+  }
+  &-avatar:nth-child(2) {
+    top: 20px;
+    right: 0;
+  }
+
+  &-avatar:nth-child(4) {
+    left: 0;
+    bottom: 145px;
+  }
+
+  &-avatar:nth-child(5) {
+    left: 212px;
+    bottom: 0;
+  }
+
+  &-avatar:nth-child(6) {
+    right: 32px;
+    bottom: 32px;
+  }
+
+  &-avatar:nth-child(3) {
+    width: 235px;
+    height: 235px;
+    top: 107px;
+    right: 171px;
+  }
+  &-avatar:nth-child(4),
+  &-avatar:nth-child(5),
+  &-avatar:last-child {
+    width: 78px;
+    height: 78px;
+  }
+
+  &-qoute {
+    margin-bottom: 20px;
+  }
+  &-desc {
+    font-size: 3.2rem;
+    line-height: 1.5;
+    color: $second;
+    margin-bottom: 33px;
+  }
+  &-author {
+    margin-bottom: 52px;
+  }
+  &-author strong {
+    font-weight: 500;
+    line-height: 1.5;
+    color: $primary;
+  }
+  &-author span {
+    color: $second;
+  }
+  &-icon {
+    .btn-icon {
+      border: none;
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      text-align: center;
+      background-color: $second;
+      outline: none;
+      margin: 0 15px;
+      cursor: pointer;
+    }
+  }
+}
