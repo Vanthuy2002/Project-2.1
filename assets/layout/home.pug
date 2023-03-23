@@ -1,0 +1,41 @@
+section.home 
+    .width
+        section.home-navbar 
+            .nav-logo 
+                img(src="./assets/img/Logo.svg", alt="Bensik")
+            ul.nav-list
+                li 
+                    a.active(href="#!") Home
+                li 
+                    a(href="#!") Features 
+                li 
+                    a(href="#!") Pricings 
+                li 
+                    a(href="#!") Abouts
+                li 
+                    a(href="#!") Contacts 
+            .btn-cta 
+                a.btn-sign(href="#!") Sign In 
+                a.btn.btn-sign(href="#!") Sign Up 
+
+        section.hero__content 
+            .hero__content-left 
+                p.hero__content-sub 😎 EASY LEAENING PLATFORM
+                h1.hero__content-heading Words learner come here.
+                p.hero-content-desc Build skills with courses, certificates, and get online knowledge from our world-class platform.
+                .hero-cta 
+                    a(href="#!").hero-btn.btn Get Started 
+                    button.hero-video 
+                        img(src="./assets/img/Vector 90.svg", alt="")
+            .hero__content-right 
+                .image 
+                    img(src="./assets/img/hero_img.jpg", alt="")
+                .reviews 
+                    p.reviews__title Our active Student 
+                    each val in["./assets/img/avtar1.jpg","./assets/img/avtar2.jpg", "./assets/img/avtar3.jpeg", "./assets/img/avtar4.jfif", "./assets/img/avtar1.jpg"]
+                        img(src=val , alt="")
+                .courses 
+                    img(src="./assets/img/Book.svg", alt="")
+                    .courses-desc 
+                        p.courese__title Courses
+                        p.courses__number 1000+

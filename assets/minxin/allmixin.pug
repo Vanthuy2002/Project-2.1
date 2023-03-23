@@ -1,0 +1,23 @@
+mixin introItem(title, desc)
+    each val in ["./assets/img/Monitor.svg", "./assets/img/Chating-circle.svg", "./assets/img/Rectangle 57.svg"]
+        .intro-item
+            .intro-wrap 
+                img.intro-img(src=val, alt="")
+            h2.intro-item-title=title
+            .intro-item-desc=desc
+
+mixin popularItem(title, img, price)
+    .popular-item
+        img.popular-img(src=img, alt="")
+        .popular-content 
+            h2.popular-title=title
+            span.popular-price=price
+            p.popular-desc Web design basic to higer level
+            span.time 40 Classes 
+            span.time 3 months 
+
+mixin quanlityItem(number, desc)
+    .quanlity-item
+        h1.quanlity-number=number 
+        p.quanlity-desc=desc
+
