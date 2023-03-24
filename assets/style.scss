@@ -90,7 +90,7 @@ a {
   display: flex;
   gap: 0 50px;
 }
-.hero-cta .hero-btn {
+.hero-btn {
   min-width: 186px;
   padding: 20px 41px;
   border-radius: 14px;
@@ -116,13 +116,13 @@ a {
     width: 54%;
     margin-left: auto;
     .image img {
-      width: 560px;
-      height: 600px;
+      width: 576px;
+      height: 631px;
       object-fit: cover;
       border-radius: 10px;
     }
   }
-  .reviews {
+  .review {
     position: absolute;
     width: 207px;
     padding: 17px 35px;
@@ -131,14 +131,14 @@ a {
     bottom: 41px;
     right: 45px;
   }
-  .reviews img {
+  .review img {
     width: 33px;
     height: 33px;
     border-radius: 50%;
     object-fit: cover;
     margin-left: -8px;
   }
-  .reviews__title {
+  .review__title {
     font-weight: 500;
     font-size: 1rem;
     line-height: 15px;
@@ -427,5 +427,59 @@ a {
       margin: 0 15px;
       cursor: pointer;
     }
+  }
+}
+// suprise
+.suprise {
+  padding: 76px 0 88px;
+  background-color: #def6f5;
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__content {
+    .content__title {
+      font-weight: 700;
+      font-size: 4.1rem;
+      line-height: 1.5;
+      color: $primary;
+      margin-bottom: 18px;
+    }
+    .content__desc {
+      font-size: 1.8rem;
+      line-height: 1.5;
+      color: $second;
+    }
+  }
+  &__cta {
+    margin-right: 159px;
+  }
+}
+
+//footer
+.footer {
+  &__list {
+    padding: 130px 0 80px;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__heading {
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color: #2e2e2e;
+    margin-bottom: 13px;
+  }
+  &__link {
+    padding: 13px 0;
+    color: #535353;
+  }
+  &__copyright {
+    text-align: center;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color: $second;
+    margin-bottom: 50px;
   }
 }

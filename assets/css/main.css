@@ -97,7 +97,7 @@ a {
   gap: 0 50px;
 }
 
-.hero-cta .hero-btn {
+.hero-btn {
   min-width: 186px;
   padding: 20px 41px;
   border-radius: 14px;
@@ -123,12 +123,12 @@ a {
   margin-left: auto;
 }
 .hero__content-right .image img {
-  width: 560px;
-  height: 600px;
+  width: 576px;
+  height: 631px;
   object-fit: cover;
   border-radius: 10px;
 }
-.hero__content .reviews {
+.hero__content .review {
   position: absolute;
   width: 207px;
   padding: 17px 35px;
@@ -137,14 +137,14 @@ a {
   bottom: 41px;
   right: 45px;
 }
-.hero__content .reviews img {
+.hero__content .review img {
   width: 33px;
   height: 33px;
   border-radius: 50%;
   object-fit: cover;
   margin-left: -8px;
 }
-.hero__content .reviews__title {
+.hero__content .review__title {
   font-weight: 500;
   font-size: 1rem;
   line-height: 15px;
@@ -418,6 +418,55 @@ a {
   outline: none;
   margin: 0 15px;
   cursor: pointer;
+}
+
+.suprise {
+  padding: 76px 0 88px;
+  background-color: #def6f5;
+}
+.suprise__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.suprise__content .content__title {
+  font-weight: 700;
+  font-size: 4.1rem;
+  line-height: 1.5;
+  color: #0d1111;
+  margin-bottom: 18px;
+}
+.suprise__content .content__desc {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  color: #9da6a5;
+}
+.suprise__cta {
+  margin-right: 159px;
+}
+
+.footer__list {
+  padding: 130px 0 80px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__heading {
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 1.5;
+  color: #2e2e2e;
+  margin-bottom: 13px;
+}
+.footer__link {
+  padding: 13px 0;
+  color: #535353;
+}
+.footer__copyright {
+  text-align: center;
+  font-size: 1.8rem;
+  line-height: 1.5;
+  color: #9da6a5;
+  margin-bottom: 50px;
 }
 
 /*# sourceMappingURL=main.css.map */
