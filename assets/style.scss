@@ -496,7 +496,7 @@ a {
     border: 4.5px solid #0000;
     border-radius: 50%;
     border-color: #dbdcef #0000;
-    animation: spinner-e04l1k 1s infinite linear;
+    animation: spinner 1s infinite linear;
   }
 
   .spinner::before,
@@ -519,7 +519,7 @@ a {
     margin: 8.9px;
   }
 
-  @keyframes spinner-e04l1k {
+  @keyframes spinner {
     100% {
       transform: rotate(1turn);
     }
