@@ -486,11 +486,11 @@ a {
 
 .loader {
   min-height: 100vh;
-  z-index: 2;
   display: grid;
   place-items: center;
   .spinner {
     width: 65px;
+    z-index: 2;
     height: 65px;
     display: grid;
     border: 4.5px solid #0000;
